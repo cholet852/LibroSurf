@@ -1,0 +1,21 @@
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\bin\Debug\Navigateur new.exe.config
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\bin\Debug\Navigateur new.exe
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\bin\Debug\Navigateur new.pdb
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\Navigateur new.csprojResolveAssemblyReference.cache
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\Navigateur_new.Properties.Resources.resources
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\Navigateur new.csproj.GenerateResource.Cache
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\Navigateur new.exe
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\Navigateur new.pdb
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.resources
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\bin\Debug\fr\Navigateur new.resources.dll
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.fr.resources
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\fr\Navigateur new.resources.dll
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\bin\Debug\fr-FR\Navigateur new.resources.dll
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.fr-FR.resources
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\fr-FR\Navigateur new.resources.dll
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\Navigateur new\Navigateur new\bin\Debug\Navigateur new.exe.config
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\Navigateur new\Navigateur new\obj\Debug\Navigateur new.exe
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\Navigateur new\Navigateur new\obj\Debug\Navigateur new.pdb
+C:\Users\chole_000\Source\Repos\LibroSurf2\Navigateur new\bin\Debug\Navigateur new.exe.config
+C:\Users\chole_000\Source\Repos\LibroSurf2\Navigateur new\obj\Debug\Navigateur new.exe
+C:\Users\chole_000\Source\Repos\LibroSurf2\Navigateur new\obj\Debug\Navigateur new.pdb
