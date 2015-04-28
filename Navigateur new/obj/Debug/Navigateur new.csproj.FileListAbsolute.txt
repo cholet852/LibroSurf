@@ -34,3 +34,18 @@ C:\Users\Mickael\Source\Repos\LibroSurf\Navigateur new\obj\Debug\Navigateur_new.
 C:\Users\Mickael\Source\Repos\LibroSurf\Navigateur new\obj\Debug\Navigateur new.csproj.GenerateResource.Cache
 C:\Users\Mickael\Source\Repos\LibroSurf\Navigateur new\obj\Debug\fr-FR\Navigateur new.resources.dll
 C:\Users\Mickael\Source\Repos\LibroSurf\Navigateur new\obj\Debug\fr\Navigateur new.resources.dll
+C:\Users\cholet\Source\Repos\LibroSurf\Navigateur new\bin\Debug\Navigateur new.exe.config
+C:\Users\cholet\Source\Repos\LibroSurf\Navigateur new\obj\Debug\Navigateur new.exe
+C:\Users\cholet\Source\Repos\LibroSurf\Navigateur new\bin\Debug\Navigateur new.exe
+C:\Users\cholet\Source\Repos\LibroSurf\Navigateur new\bin\Debug\Navigateur new.pdb
+C:\Users\cholet\Source\Repos\LibroSurf\Navigateur new\bin\Debug\fr-FR\Navigateur new.resources.dll
+C:\Users\cholet\Source\Repos\LibroSurf\Navigateur new\bin\Debug\fr\Navigateur new.resources.dll
+C:\Users\cholet\Source\Repos\LibroSurf\Navigateur new\obj\Debug\Navigateur new.csprojResolveAssemblyReference.cache
+C:\Users\cholet\Source\Repos\LibroSurf\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.resources
+C:\Users\cholet\Source\Repos\LibroSurf\Navigateur new\obj\Debug\Navigateur_new.Properties.Resources.resources
+C:\Users\cholet\Source\Repos\LibroSurf\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.fr-FR.resources
+C:\Users\cholet\Source\Repos\LibroSurf\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.fr.resources
+C:\Users\cholet\Source\Repos\LibroSurf\Navigateur new\obj\Debug\Navigateur new.csproj.GenerateResource.Cache
+C:\Users\cholet\Source\Repos\LibroSurf\Navigateur new\obj\Debug\fr-FR\Navigateur new.resources.dll
+C:\Users\cholet\Source\Repos\LibroSurf\Navigateur new\obj\Debug\fr\Navigateur new.resources.dll
+C:\Users\cholet\Source\Repos\LibroSurf\Navigateur new\obj\Debug\Navigateur new.pdb
