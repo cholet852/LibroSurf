@@ -324,6 +324,13 @@
             resources.ApplyResources(this.txtUrl, "txtUrl");
             this.txtUrl.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtUrl_KeyUp);
             // 
+            // txtUrl
+            // 
+            this.txtUrl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtUrl.Margin = new System.Windows.Forms.Padding(2, 0, 1, 0);
+            this.txtUrl.Name = "txtUrl";
+            resources.ApplyResources(this.txtUrl, "txtUrl");
+            // 
             // btnReload
             // 
             resources.ApplyResources(this.btnReload, "btnReload");
@@ -348,6 +355,20 @@
             this.txtUrlSearchEngines.Name = "txtUrlSearchEngines";
             resources.ApplyResources(this.txtUrlSearchEngines, "txtUrlSearchEngines");
             this.txtUrlSearchEngines.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtUrlSearchEngines_KeyUp);
+            // 
+            // cmbSearchEngines
+            // 
+            this.cmbSearchEngines.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.cmbSearchEngines, "cmbSearchEngines");
+            this.cmbSearchEngines.Margin = new System.Windows.Forms.Padding(30, 0, 1, 0);
+            this.cmbSearchEngines.Name = "cmbSearchEngines";
+            // 
+            // txtUrlSearchEngines
+            // 
+            this.txtUrlSearchEngines.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtUrlSearchEngines.Margin = new System.Windows.Forms.Padding(8, 0, 1, 0);
+            this.txtUrlSearchEngines.Name = "txtUrlSearchEngines";
+            resources.ApplyResources(this.txtUrlSearchEngines, "txtUrlSearchEngines");
             // 
             // btnDownloads
             // 
@@ -387,6 +408,19 @@
             resources.ApplyResources(this.webBrowser1, "webBrowser1");
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowser1_Navigated);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            resources.ApplyResources(this.imageList1, "imageList1");
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // imageList1
             // 
