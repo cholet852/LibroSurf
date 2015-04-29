@@ -68,6 +68,7 @@
             this.txtUrl = new System.Windows.Forms.ToolStripTextBox();
             this.btnReload = new System.Windows.Forms.ToolStripButton();
             this.cmbSearchEngines = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.txtUrlSearchEngines = new System.Windows.Forms.ToolStripTextBox();
             this.btnDownloads = new System.Windows.Forms.ToolStripButton();
             this.btnHome = new System.Windows.Forms.ToolStripButton();
@@ -75,7 +76,7 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.button1 = new System.Windows.Forms.Button();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -232,6 +233,7 @@
             // 
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
             resources.ApplyResources(this.optionsToolStripMenuItem, "optionsToolStripMenuItem");
+            this.optionsToolStripMenuItem.Click += new System.EventHandler(this.optionsToolStripMenuItem_Click);
             // 
             // favorisToolStripMenuItem
             // 
@@ -289,6 +291,7 @@
             this.txtUrl,
             this.btnReload,
             this.cmbSearchEngines,
+            this.toolStripButton1,
             this.txtUrlSearchEngines,
             this.btnDownloads,
             this.btnHome});
@@ -324,13 +327,6 @@
             resources.ApplyResources(this.txtUrl, "txtUrl");
             this.txtUrl.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtUrl_KeyUp);
             // 
-            // txtUrl
-            // 
-            this.txtUrl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtUrl.Margin = new System.Windows.Forms.Padding(2, 0, 1, 0);
-            this.txtUrl.Name = "txtUrl";
-            resources.ApplyResources(this.txtUrl, "txtUrl");
-            // 
             // btnReload
             // 
             resources.ApplyResources(this.btnReload, "btnReload");
@@ -348,6 +344,13 @@
             this.cmbSearchEngines.Margin = new System.Windows.Forms.Padding(30, 0, 1, 0);
             this.cmbSearchEngines.Name = "cmbSearchEngines";
             // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.toolStripButton1, "toolStripButton1");
+            this.toolStripButton1.Margin = new System.Windows.Forms.Padding(8, 1, 0, 2);
+            this.toolStripButton1.Name = "toolStripButton1";
+            // 
             // txtUrlSearchEngines
             // 
             this.txtUrlSearchEngines.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -355,20 +358,6 @@
             this.txtUrlSearchEngines.Name = "txtUrlSearchEngines";
             resources.ApplyResources(this.txtUrlSearchEngines, "txtUrlSearchEngines");
             this.txtUrlSearchEngines.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtUrlSearchEngines_KeyUp);
-            // 
-            // cmbSearchEngines
-            // 
-            this.cmbSearchEngines.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.cmbSearchEngines, "cmbSearchEngines");
-            this.cmbSearchEngines.Margin = new System.Windows.Forms.Padding(30, 0, 1, 0);
-            this.cmbSearchEngines.Name = "cmbSearchEngines";
-            // 
-            // txtUrlSearchEngines
-            // 
-            this.txtUrlSearchEngines.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtUrlSearchEngines.Margin = new System.Windows.Forms.Padding(8, 0, 1, 0);
-            this.txtUrlSearchEngines.Name = "txtUrlSearchEngines";
-            resources.ApplyResources(this.txtUrlSearchEngines, "txtUrlSearchEngines");
             // 
             // btnDownloads
             // 
@@ -387,6 +376,8 @@
             this.btnHome.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.btnHome.Margin = new System.Windows.Forms.Padding(8, 1, 0, 2);
             this.btnHome.Name = "btnHome";
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            this.btnHome.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnHome_MouseUp);
             // 
             // tabControl1
             // 
@@ -415,31 +406,10 @@
             resources.ApplyResources(this.imageList1, "imageList1");
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // imageList1
-            // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            resources.ApplyResources(this.imageList1, "imageList1");
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // frmLibroSurf
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
@@ -503,8 +473,9 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ImageList imageList1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
 
 
     }
