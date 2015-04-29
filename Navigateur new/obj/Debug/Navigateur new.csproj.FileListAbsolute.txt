@@ -1,0 +1,67 @@
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\bin\Debug\Navigateur new.exe.config
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\bin\Debug\Navigateur new.exe
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\bin\Debug\Navigateur new.pdb
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\Navigateur new.csprojResolveAssemblyReference.cache
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\Navigateur_new.Properties.Resources.resources
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\Navigateur new.csproj.GenerateResource.Cache
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\Navigateur new.exe
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\Navigateur new.pdb
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.resources
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\bin\Debug\fr\Navigateur new.resources.dll
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.fr.resources
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\fr\Navigateur new.resources.dll
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\bin\Debug\fr-FR\Navigateur new.resources.dll
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.fr-FR.resources
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\PROJET DE TEST\Navigateur new\Navigateur new\obj\Debug\fr-FR\Navigateur new.resources.dll
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\Navigateur new\Navigateur new\bin\Debug\Navigateur new.exe.config
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\Navigateur new\Navigateur new\obj\Debug\Navigateur new.exe
+C:\Users\chole_000\Desktop\PROJET FINAL NAVIGATEUR\Navigateur new\Navigateur new\obj\Debug\Navigateur new.pdb
+C:\Users\chole_000\Source\Repos\LibroSurf2\Navigateur new\bin\Debug\Navigateur new.exe.config
+C:\Users\chole_000\Source\Repos\LibroSurf2\Navigateur new\obj\Debug\Navigateur new.exe
+C:\Users\chole_000\Source\Repos\LibroSurf2\Navigateur new\obj\Debug\Navigateur new.pdb
+D:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur new.exe
+D:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur new.pdb
+D:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.resources
+D:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur_new.Properties.Resources.resources
+D:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.fr-FR.resources
+D:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.fr.resources
+D:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur new.csproj.GenerateResource.Cache
+D:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\fr-FR\Navigateur new.resources.dll
+D:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\fr\Navigateur new.resources.dll
+G:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\bin\Debug\Navigateur new.exe.config
+G:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur new.exe
+G:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur new.pdb
+G:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\bin\Debug\Navigateur new.exe
+G:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\bin\Debug\Navigateur new.pdb
+G:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\bin\Debug\fr-FR\Navigateur new.resources.dll
+G:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\bin\Debug\fr\Navigateur new.resources.dll
+G:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur new.csprojResolveAssemblyReference.cache
+G:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.resources
+G:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur_new.Properties.Resources.resources
+G:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.fr-FR.resources
+G:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.fr.resources
+G:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur new.csproj.GenerateResource.Cache
+G:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\fr-FR\Navigateur new.resources.dll
+G:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\fr\Navigateur new.resources.dll
+G:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur_new.fmProperties.resources
+D:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\obj\Debug\Navigateur_new.fmProperties.resources
+D:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\bin\Navigateur new.exe.config
+D:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\bin\Navigateur new.exe
+D:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\bin\Navigateur new.pdb
+D:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\bin\fr-FR\Navigateur new.resources.dll
+D:\FORMATION AFPA\prog visual\PROJET FINAL NAVIGATEUR\LibroSurf2\Navigateur new\bin\fr\Navigateur new.resources.dll
+C:\Users\chole_000\Source\Repos\LibroSurf6\Navigateur new\bin\Navigateur new.exe.config
+C:\Users\chole_000\Source\Repos\LibroSurf6\Navigateur new\obj\Debug\Navigateur new.exe
+C:\Users\chole_000\Source\Repos\LibroSurf6\Navigateur new\obj\Debug\Navigateur new.pdb
+C:\Users\chole_000\Source\Repos\LibroSurf6\Navigateur new\bin\Navigateur new.exe
+C:\Users\chole_000\Source\Repos\LibroSurf6\Navigateur new\bin\Navigateur new.pdb
+C:\Users\chole_000\Source\Repos\LibroSurf6\Navigateur new\bin\fr-FR\Navigateur new.resources.dll
+C:\Users\chole_000\Source\Repos\LibroSurf6\Navigateur new\bin\fr\Navigateur new.resources.dll
+C:\Users\chole_000\Source\Repos\LibroSurf6\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.resources
+C:\Users\chole_000\Source\Repos\LibroSurf6\Navigateur new\obj\Debug\Navigateur_new.fmProperties.resources
+C:\Users\chole_000\Source\Repos\LibroSurf6\Navigateur new\obj\Debug\Navigateur_new.Properties.Resources.resources
+C:\Users\chole_000\Source\Repos\LibroSurf6\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.fr-FR.resources
+C:\Users\chole_000\Source\Repos\LibroSurf6\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.fr.resources
+C:\Users\chole_000\Source\Repos\LibroSurf6\Navigateur new\obj\Debug\Navigateur new.csproj.GenerateResource.Cache
+C:\Users\chole_000\Source\Repos\LibroSurf6\Navigateur new\obj\Debug\fr-FR\Navigateur new.resources.dll
+C:\Users\chole_000\Source\Repos\LibroSurf6\Navigateur new\obj\Debug\fr\Navigateur new.resources.dll
