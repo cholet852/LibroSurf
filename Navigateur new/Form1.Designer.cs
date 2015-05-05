@@ -244,6 +244,7 @@
             // 
             this.historiqueToolStripMenuItem.Name = "historiqueToolStripMenuItem";
             resources.ApplyResources(this.historiqueToolStripMenuItem, "historiqueToolStripMenuItem");
+            this.historiqueToolStripMenuItem.Click += new System.EventHandler(this.historiqueToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 

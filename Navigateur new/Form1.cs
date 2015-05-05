@@ -19,6 +19,9 @@ namespace Navigateur_new
             InitializeComponent();
         }
 
+        public History histo = new History();
+
+
         //Chargement de la fenêtre
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -149,6 +152,9 @@ namespace Navigateur_new
             webIcons();//Charge la gestion des favicons
 
             tabControl1.SelectedTab.Text = webBrowser1.DocumentTitle.ToString();//Affiche le documenTitle dans l'onglet
+
+           histo = new History();
+            histo.lstHistory.Items.Add(txtUrl.Text);
         }
 #endregion
 
@@ -156,6 +162,12 @@ namespace Navigateur_new
         {
             fmProperties properties = new fmProperties();
             properties.Show();
+        }
+
+        private void historiqueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+           histo.Show();
         }
 
      
