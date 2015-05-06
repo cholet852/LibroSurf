@@ -31,7 +31,7 @@ namespace Navigateur_new
                 cmbStartUp.SelectedIndex = 1;
             }
 
-          //  Properties.Settings.Default.HomePageOrBlankPage = cmbStartUp.SelectedIndex.ToString();
+            //Properties.Settings.Default.HomePageOrBlankPage = cmbStartUp.SelectedIndex.ToString();
             Properties.Settings.Default.Save();
             Properties.Settings.Default.Reload();
         }

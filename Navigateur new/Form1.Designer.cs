@@ -378,7 +378,6 @@
             this.btnHome.Margin = new System.Windows.Forms.Padding(8, 1, 0, 2);
             this.btnHome.Name = "btnHome";
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
-            this.btnHome.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnHome_MouseUp);
             // 
             // tabControl1
             // 
@@ -399,6 +398,7 @@
             // 
             resources.ApplyResources(this.webBrowser1, "webBrowser1");
             this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
             this.webBrowser1.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowser1_Navigated);
             // 
             // imageList1
@@ -416,6 +416,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Name = "frmLibroSurf";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmLibroSurf_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

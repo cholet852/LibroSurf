@@ -19,7 +19,20 @@ namespace Navigateur_new
             InitializeComponent();
         }
 
-        public History histo = new History();
+        //Creation d'objet utile
+        private History his = new History();
+        private fmProperties properties = new fmProperties();
+        
+
+        //Lors de la fermeture du navigateur on enregistre l'historique dans un txt
+        private void frmLibroSurf_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            foreach (string link in (his.lstHistory.Items))
+            {
+              File.AppendAllText("c:/LibroSurf/historique.txt", link + System.Environment.NewLine);
+            }
+            
+        }
 
 
         //Chargement de la fenêtre
@@ -30,8 +43,30 @@ namespace Navigateur_new
 
             if (Properties.Settings.Default.HomePageOrBlankPage == 0)
             {
-               // webBrowser1.Navigate(Properties.Settings.Default.HomePage);
+               webBrowser1.Navigate(Properties.Settings.Default.HomePage);
             }
+
+
+        //Charge les url du fichier txt dans la listBox de l'historique
+        //On affiche d'abord la fenetre de l'historique, puis on copie le txt et on rend invisible la fenetre
+        //La fonction "try" sert à gérer les exception en cas d'erreur
+         try
+         {
+             his.Show();
+
+             foreach (string link in (File.ReadAllLines("c:/LibroSurf/historique.txt")))
+             {
+                 his.lstHistory.Items.Add(link.ToString());
+             }
+
+             his.Visible = false;
+         }
+          
+         catch (Exception ex)
+         {
+         }
+
+
         }
 
 #region SearchEngines
@@ -102,17 +137,6 @@ namespace Navigateur_new
             webBrowser1.Navigate(Properties.Settings.Default.HomePage);
         }
 
-        //Redefinit le HomePage via un clic droit sur l'icone
-        private void btnHome_MouseUp(object sender, MouseEventArgs e)
-        {
-            if (e.Button == System.Windows.Forms.MouseButtons.Right)
-            {
-                Properties.Settings.Default.HomePage = txtUrl.Text.ToString();
-                MessageBox.Show("Votre moteur de recherche est maintenant :" + txtUrl.Text.ToString());
-            }
-        }
-       
-
         //Appui sur entrer valide l'adresse et la passe au webBrowers navigate
         private void txtUrl_KeyUp(object sender, KeyEventArgs e)
         {
@@ -129,19 +153,27 @@ namespace Navigateur_new
             WebClient wc = new WebClient();
             Uri uri1 = new Uri(webBrowser1.Url.ToString());
             MemoryStream memorystream = new MemoryStream(wc.DownloadData("http://" + uri1.Host + "/favicon.ico"));
-            Icon icon = new Icon(memorystream);
+           
+            try
+            {
+                Icon icon = new Icon(memorystream);
 
-            if (imageList1.Images.Count == -1)
-            {
-                imageList1.Images.Add(icon.ToBitmap());
-                tabControl1.SelectedTab.ImageIndex = 0;
+                if (imageList1.Images.Count == -1)
+                {
+                    imageList1.Images.Add(icon.ToBitmap());
+                    tabControl1.SelectedTab.ImageIndex = 0;
+                }
+                else
+                {
+                    imageList1.Images.Clear();
+                    imageList1.Images.Add(icon.ToBitmap());
+                    tabControl1.SelectedTab.ImageIndex = 0;
+                }
             }
-            else
+            catch (Exception e)
             {
-                imageList1.Images.Clear();
-                imageList1.Images.Add(icon.ToBitmap());
-                tabControl1.SelectedTab.ImageIndex = 0;
             }
+
         }
 
         //Gestion de la navigation en cours
@@ -153,22 +185,34 @@ namespace Navigateur_new
 
             tabControl1.SelectedTab.Text = webBrowser1.DocumentTitle.ToString();//Affiche le documenTitle dans l'onglet
 
-           histo = new History();
-            histo.lstHistory.Items.Add(txtUrl.Text);
+           
         }
+
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            his.lstHistory.Items.Add(txtUrl.Text);
+        }
+
+
 #endregion
 
+
+        //Affiche la fenêtre des proprietées
         private void optionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            fmProperties properties = new fmProperties();
             properties.Show();
         }
 
+
+        //Affiche la fenêtre de l'historique
         private void historiqueToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
-           histo.Show();
+            his.Visible = true;
         }
+
+        
+
+      
 
      
     }

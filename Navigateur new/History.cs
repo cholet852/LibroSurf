@@ -16,5 +16,12 @@ namespace Navigateur_new
         {
             InitializeComponent();
         }
+
+        private void History_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            this.Visible = false;
+
+        }
     }
 }
