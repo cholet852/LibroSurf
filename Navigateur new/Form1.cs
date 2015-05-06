@@ -210,6 +210,16 @@ namespace Navigateur_new
             his.Visible = true;
         }
 
+        private void txtUrl_TextChanged(object sender, EventArgs e)
+        {
+            txtUrl.AutoCompleteCustomSource.Clear();
+
+            for (int i = 0; i < his.lstHistory.Items.Count - 1; i++ )
+            {
+                txtUrl.AutoCompleteCustomSource.Add(his.lstHistory.SelectedIndex.ToString());
+            }
+        }
+
         
 
       

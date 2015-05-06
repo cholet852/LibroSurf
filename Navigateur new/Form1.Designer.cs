@@ -322,11 +322,14 @@
             // 
             // txtUrl
             // 
+            this.txtUrl.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.txtUrl.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.txtUrl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUrl.Margin = new System.Windows.Forms.Padding(2, 0, 1, 0);
             this.txtUrl.Name = "txtUrl";
             resources.ApplyResources(this.txtUrl, "txtUrl");
             this.txtUrl.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtUrl_KeyUp);
+            this.txtUrl.TextChanged += new System.EventHandler(this.txtUrl_TextChanged);
             // 
             // btnReload
             // 
