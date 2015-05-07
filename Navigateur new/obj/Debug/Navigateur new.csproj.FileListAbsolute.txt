@@ -99,3 +99,20 @@ C:\Users\chole_000\Source\Repos\LibroSurf8\Navigateur new\obj\Debug\Navigateur_n
 C:\Users\chole_000\Source\Repos\LibroSurf8\Navigateur new\obj\Debug\Navigateur new.csproj.GenerateResource.Cache
 C:\Users\chole_000\Source\Repos\LibroSurf8\Navigateur new\obj\Debug\fr-FR\Navigateur new.resources.dll
 C:\Users\chole_000\Source\Repos\LibroSurf8\Navigateur new\obj\Debug\fr\Navigateur new.resources.dll
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\bin\Navigateur new.exe.config
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\obj\Debug\Navigateur new.exe
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\obj\Debug\Navigateur new.pdb
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\bin\Navigateur new.exe
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\bin\Navigateur new.pdb
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\bin\fr-FR\Navigateur new.resources.dll
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\bin\fr\Navigateur new.resources.dll
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\obj\Debug\Navigateur new.csprojResolveAssemblyReference.cache
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.resources
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\obj\Debug\Navigateur_new.fmProperties.resources
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\obj\Debug\Navigateur_new.History.resources
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\obj\Debug\Navigateur_new.Properties.Resources.resources
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.fr-FR.resources
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\obj\Debug\Navigateur_new.frmLibroSurf.fr.resources
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\obj\Debug\Navigateur new.csproj.GenerateResource.Cache
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\obj\Debug\fr-FR\Navigateur new.resources.dll
+C:\Users\cholet\Source\Repos\LibroSurf3\Navigateur new\obj\Debug\fr\Navigateur new.resources.dll

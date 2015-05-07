@@ -27,9 +27,10 @@ namespace Navigateur_new
         //Lors de la fermeture du navigateur on enregistre l'historique dans un txt
         private void frmLibroSurf_FormClosing(object sender, FormClosingEventArgs e)
         {
+
             foreach (string link in (his.lstHistory.Items))
             {
-              File.AppendAllText("c:/LibroSurf/historique.txt", link + System.Environment.NewLine);
+                File.WriteAllText("c:/LibroSurf/historique.txt", link + System.Environment.NewLine);
             }
             
         }
@@ -56,7 +57,7 @@ namespace Navigateur_new
 
              foreach (string link in (File.ReadAllLines("c:/LibroSurf/historique.txt")))
              {
-                 his.lstHistory.Items.Add(link.ToString());
+                     his.lstHistory.Items.Add(link.ToString());
              }
 
              his.Visible = false;
@@ -188,8 +189,16 @@ namespace Navigateur_new
            
         }
 
+        //Lorsque la page est complétement chargé
         private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
+            int index = his.lstHistory.FindString(txtUrl.Text);
+
+            if (index >=0)
+            {
+                his.lstHistory.Items.Remove(txtUrl.Text);
+            }
+
             his.lstHistory.Items.Add(txtUrl.Text);
         }
 
@@ -210,13 +219,16 @@ namespace Navigateur_new
             his.Visible = true;
         }
 
+
+        //Complete le debut d'une recherche avec les premiere lettre
         private void txtUrl_TextChanged(object sender, EventArgs e)
         {
             txtUrl.AutoCompleteCustomSource.Clear();
 
-            for (int i = 0; i < his.lstHistory.Items.Count - 1; i++ )
+            for (int i = his.lstHistory.Items.Count - 1; i >= 0; i--)
             {
-                txtUrl.AutoCompleteCustomSource.Add(his.lstHistory.SelectedIndex.ToString());
+                    his.lstHistory.SetSelected(i, true);
+                    txtUrl.AutoCompleteCustomSource.Add(his.lstHistory.Items[i].ToString());
             }
         }
 
