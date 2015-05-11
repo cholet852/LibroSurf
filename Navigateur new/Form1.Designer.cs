@@ -401,6 +401,7 @@
             // 
             resources.ApplyResources(this.webBrowser1, "webBrowser1");
             this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.ScriptErrorsSuppressed = true;
             this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
             this.webBrowser1.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowser1_Navigated);
             // 
@@ -477,10 +478,10 @@
         private System.Windows.Forms.ToolStripButton btnHome;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
+        public System.Windows.Forms.WebBrowser webBrowser1;
 
 
     }

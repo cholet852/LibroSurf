@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Navigateur_new
 {
@@ -22,6 +23,22 @@ namespace Navigateur_new
             e.Cancel = true;
             this.Visible = false;
 
+        }
+
+        private void btnDeleteAll_Click(object sender, EventArgs e)
+        {
+            lstHistory.Items.Clear();
+            File.Delete("c:/LibroSurf/historique.txt");
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

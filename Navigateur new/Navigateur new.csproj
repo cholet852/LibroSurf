@@ -85,6 +85,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="webBrowserFunction.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <EmbeddedResource Include="Form1.fr-FR.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

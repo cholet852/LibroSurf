@@ -23,6 +23,7 @@ namespace Navigateur_new
         private History his = new History();
         private fmProperties properties = new fmProperties();
         
+        
 
         //Lors de la fermeture du navigateur on enregistre l'historique dans un txt
         private void frmLibroSurf_FormClosing(object sender, FormClosingEventArgs e)
@@ -30,7 +31,7 @@ namespace Navigateur_new
 
             foreach (string link in (his.lstHistory.Items))
             {
-                File.WriteAllText("c:/LibroSurf/historique.txt", link + System.Environment.NewLine);
+                File.AppendAllText("c:/LibroSurf/historique.txt", link + System.Environment.NewLine);
             }
             
         }
@@ -184,7 +185,7 @@ namespace Navigateur_new
 
             webIcons();//Charge la gestion des favicons
 
-            tabControl1.SelectedTab.Text = webBrowser1.DocumentTitle.ToString();//Affiche le documenTitle dans l'onglet
+            tabControl1.SelectedTab.Text = webBrowser1.DocumentTitle.ToString();//Affiche le documentTitle dans l'onglet
 
            
         }
